@@ -1,0 +1,89 @@
+body{
+ background: #f8f9fa;
+}
+.item{
+    text-decoration: none;
+    border: solid transparent;
+    margin: 15px;
+    border-radius:6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.item__name{
+    padding:3px;
+    text-align: center;
+}
+.img__game{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.item__logo h3{
+    text-align: left;
+
+}
+.item__logo {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.item__text{
+    width: 100%;
+}
+
+.item__market{
+    height: 50px;
+    text-align: center;
+    vertical-align:middle;
+
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+
+.market__link{
+
+    display: flex;
+    justify-content: right;
+}
+.market__link div{
+
+    height: 30px;
+    width: auto;
+    padding: 2px 5px;
+    text-align: center;
+    background: #fffb56;
+    border: transparent solid;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.item__panel{
+    height: 110px;
+
+    margin: 10px 0;
+}
+
+.item__panel:not(:last-child){
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.item__img{
+background-size: cover;
+background-position: center;
+
+}
+
+
+.update__panel{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.item__form{
+    margin: 10px 0;
+}
